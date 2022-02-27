@@ -1,0 +1,35 @@
+@media only screen and (max-width: 740px) {  
+    #wrapper { flex:0 0 50%;
+        max-width: 50%; }  
+    
+        .image{
+            width: 300px;
+            text-align: center;}
+            
+            h2{text-align:center;}
+            h1{text-align: center;}
+   }  
+     
+   @media only screen and (max-width: 570px) {  
+   #wrapper { 
+        width: 100%; 
+  }  
+  .image{
+    width: 300px;
+    text-align: center;}
+
+    h2{text-align:center;}
+    h1{text-align: center;}
+   }  
+     
+   @media only screen and (max-width: 480px) {  
+    #wrapper {
+        width: 100%; }
+
+   .image{
+       width: 300px;
+       text-align: center;}
+       h2{text-align:center;}
+       h1{text-align: center;}
+   
+   }

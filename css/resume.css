@@ -1,0 +1,137 @@
+html, button, input, select, textarea {
+    color: #444;
+    }
+    
+    html { 
+        background-color: /*#777*/#FFFAFA;
+        font-size: 1em; 
+        line-height: 1.4; 
+        font-family: source-code-pro, serif;
+        color: white;
+       
+    }
+    #wrapper {
+        max-width: 900px;
+        min-width: 320px;
+        margin-left: auto;
+        margin-right: auto;
+        border: 5px solid #33e6ff;
+        border-radius: 10px;
+        box-shadow: 2px 3px 4px black;
+        padding: 20px;
+        background-color: #777;
+    }
+    .image {
+        float: right;
+        border: 1px solid #ccc;
+        border-radius: 3px;
+        background-color: white;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    }
+    h1 {
+        font-family: overlock-sc, serif;
+       }
+    header {
+        height: 300px;
+    }
+
+.information {
+    float: left;
+    
+}
+.information > h2{
+    border-bottom: none;
+    color: #d6eaf8 ;
+}
+
+.section {
+    margin-bottom: 70px;
+    text-align: justify;
+}
+.left-side {
+    float: left;
+    font-weight: bold;
+    font-size: 20px;
+}
+.date {
+    font-weight: bold;
+    font-size: 15px;
+}
+.right-side {
+    margin-left: 150px;
+    margin-top: 37px;
+}
+article{
+    margin-bottom: 37px;
+}
+
+h2 {
+    font-size: 28px;
+    color: #33e6ff;
+    border-bottom: 2.5px solid #33e6ff;
+}
+
+.time {
+    font-weight: normal;
+    font-style: italic;
+    font-size: 16px;
+}
+.title {
+    font-weight: bold;
+    font-size: 21px;
+}
+
+#right-lang {
+    line-height: 30px;
+    margin-top: 40.5px;
+}
+
+dt{
+    font-weight: bold;
+    font-size: 18px;
+}
+dd {
+    margin-bottom: 20px;
+}
+
+footer {
+    text-align: center;
+    background-color: azure;
+    color: black;
+}
+footer a {
+    color:  #186a3b ;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.center{
+    text-align: center;
+}
+
+.tooltip{
+    background:black;
+    color:white;
+    padding:3px;
+    box-shadow:0 0 10px 0 rgba(0, 0, 0, 1);
+    border-radius:10px;
+    opacity:2;
+}
+
+button {
+    display: inline-block;
+    background-color: #E1EBEE;
+    border-radius: 10px;
+    border: 4px double #cccccc;
+    color: black;
+    text-align: center;
+    font-size: 12px;
+    padding: 5px;
+    width: 70px;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+    }
